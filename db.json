@@ -1,0 +1,36 @@
+{"titular": {
+    "nombres": "Juan Camilo", 
+    "apellidos": "Paniagua Alvarez",
+    "tipo_id": "CC",
+    "numero_id":71381542,
+    "correo": "juan77camilo@gmail.com",
+    "ips": "San Ignacio",
+    "tipo_afiliado": "Cotizante",
+    "tipo_cobro": "Excento"
+},
+  "autorizados" : [{
+    "nombres": "Elmer", 
+    "apellidos": "Marin Traslaviña",
+    "tipo_id": "CC",
+    "numero_id":1023456789,
+    "correo": "emarint@gmail.com"
+  }],
+  "formula": [{
+    "cod_formula": "G-202015345",
+    "fecha": "17/11/2020",
+    "medicamentos": [{
+        "nombre": "Prednisolona",
+        "dosis": "1 tableta c/8 horas",
+        "cantidad": 30,
+        "profesional": "Yudy Rodriguez",
+        "recomendaciones": "Recuerde tomar este medicamento en ayunas."
+    },{
+      "nombre": "Acido Asrcórbico",
+      "dosis": "1 tableta c/24 horas",
+      "cantidad": 90,
+      "profesional": "Yudy Rodriguez",
+      "recomendaciones": "Tomar a cualquier hora del día, encima de las comidas."
+    }]
+  }]
+  
+}
