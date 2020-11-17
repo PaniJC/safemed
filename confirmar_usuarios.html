@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="./node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+  <link rel="stylesheet" href="./css/confirmar.css">
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+
+  <!-- Title -->
+  <title>SafeMed - Confirmar</title>
+</head>
+<body ng-controller="safeCtrl">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark"">
+    <a class="navbar-brand" href="#">SafeMed</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/validar_formula.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Validación
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Entrega</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <section class="login">
+      <section class="login__container">
+        <h2>Confirmar Usuarios</h2>
+          <div class="alerta">
+            Información del Titular
+            <div class="login__container--token">
+                <i class="fas fa-sms"></i><i class="fas fa-qrcode"></i>
+            </div>
+          </div>
+
+        
+        <form class="login__container--form">
+         <div class="confirmar__inputs">
+            <div class="confirmar__inputs-group">
+              <label>Nombres Completos</label>
+              <input class="input" type="text" placeholder="Código de la fórmula">
+            </div>
+            <div class="confirmar__inputs-group">
+              <label>Tipo Id</label>
+              <input class="input" type="text" placeholder="Código de la fórmula">
+            </div>
+            <div class="confirmar__inputs-group">
+              <label>Identificación</label>
+              <input class="input" type="text" placeholder="Código de la fórmula">
+            </div>
+            <div class="confirmar__inputs-group">
+              <label>Correo Electrónico</label>
+              <input class="input" type="text" placeholder="Código de la fórmula">
+            </div>
+            <div class="confirmar__inputs-group">
+              <label>Número Teléfono</label>
+              <input class="input" type="text" placeholder="Código de la fórmula">
+            </div>
+            <div class="confirmar__inputs-group">
+              <label>IPS</label>
+              <input class="input" type="text" placeholder="Código de la fórmula">
+            </div>
+            <div class="confirmar__inputs-group">
+              <label>Tipo Afiliado</label>
+              <input class="input" type="text" placeholder="Código de la fórmula">
+            </div>
+            <div class="confirmar__inputs-group">
+              <label>Tipo Cobro</label>
+              <input class="input" type="text" placeholder="Código de la fórmula">
+            </div>
+          </div>
+          
+
+        </form>
+        <div class="alerta">
+          Información del Autorizado
+          <div class="login__container--token">
+              <i class="fas fa-sms"></i><i class="fas fa-qrcode"></i>
+          </div>
+        </div>
+        <form class="login__container--form">
+          <div class="confirmar__inputs">
+             <div class="confirmar__inputs-group">
+               <label>Nombres Completos</label>
+               <input class="input" type="text" placeholder="Código de la fórmula">
+             </div>
+             <div class="confirmar__inputs-group">
+               <label>Tipo Id</label>
+               <input class="input" type="text" placeholder="Código de la fórmula">
+             </div>
+             <div class="confirmar__inputs-group">
+               <label>Identificación</label>
+               <input class="input" type="text" placeholder="Código de la fórmula">
+             </div>
+             <div class="confirmar__inputs-group">
+               <label>Correo Electrónico</label>
+               <input class="input" type="text" placeholder="Código de la fórmula">
+             </div>
+             <div class="confirmar__inputs-group">
+               <label>Número Teléfono</label>
+               <input class="input" type="text" placeholder="Código de la fórmula">
+             </div>
+           </div>
+           
+ 
+         </form>
+        <div class="alert alert-success" role="alert">
+          Medicamentos
+        </div>
+
+        <table class="tabla_formula responsive">
+          <thead>
+            <tr>
+              <th>Medicamento</th>
+              <th>Dosificación</th>
+              <th>Cantidad</th>
+              <th>Profesional Salud</th>
+              <th>Recomendaciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Prednisolona</td>
+              <td>1 tableta c/12h</td>
+              <td>30</td>
+              <td>Elmer Marin T</td>
+              <td>Recuerde tomar este medicamento en ayunas.</td>
+            </tr>
+            <tr>
+              <td>Acido Ascorbico</td>
+              <td>1 tableta c/24h</td>
+              <td>90</td>
+              <td>Elmer Marin T</td>
+              <td>Tomar a cualquier hora del día, encima de las comidas</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+  </section>
+  <footer class="footer">
+    <a href="/">Términos de uso</a>
+    <a href="/">Declaración de privacidad</a>
+    <a href="/">Centro de ayuda</a>
+  </footer>
+</body>
+</html>
